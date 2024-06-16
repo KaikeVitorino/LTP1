@@ -1,9 +1,10 @@
-from rich.console import *
-from rich.table import *
+from rich.console import Console
+from rich.table import Table
 from utils import *
 
 console = Console()
 
+# Dicionário de opções do menu mapeando números a funções
 opcoes_menu = {
     1: cadastrar_pessoa,
     2: cadastrar_cliente,
@@ -18,11 +19,13 @@ opcoes_menu = {
 
 def menu():
     while True:
+        # Cria uma tabela para exibição no console
         table = Table(title="Escolha uma opção")
 
         table.add_column("Opção", justify="right", style="cyan", no_wrap=True)
         table.add_column("Descrição", style="magenta")
 
+        # Adiciona as opções do menu à tabela
         table.add_row("1", "Cadastrar Pessoa")
         table.add_row("2", "Cadastrar Cliente")
         table.add_row("3", "Cadastrar Atendente")
@@ -33,17 +36,15 @@ def menu():
         table.add_row("8", "Consultar Técnicos")
         table.add_row("9", "Sair")
 
-        console.print(table)
+        console.print(table)  # Exibe a tabela no console
 
         try:
-            opcao = int(input("Opção: "))
-            funcao = opcoes_menu.get(opcao)
+            opcao = int(input("Opção: "))  # Solicita a opção do usuário
+            funcao = opcoes_menu.get(opcao)  # Obtém a função correspondente
             if funcao:
-                funcao()
+                funcao()  # Executa a função
             else:
-                console.print("[red]Opção inválida![/red]")
+                console.print("[red]Opção inválida![/red]")  # Mensagem de erro para opção inválida
         except ValueError:
-            console.print("[red]Por favor, insira um número válido.[/red]")
+            console.print("[red]Por favor, insira um número válido.[/red]")  # Mensagem de erro para entrada inválida
 
-if __name__ == "__main__":
-    menu()
