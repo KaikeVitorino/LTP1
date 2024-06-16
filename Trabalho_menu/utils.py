@@ -59,6 +59,6 @@ def consultar_atendentes():
 def consultar_tecnicos():
     Tecnico.ler_arq_tec()
 
-# Função para sair do programaa
+# Função para sair do programad
 def sair():
     exit()
