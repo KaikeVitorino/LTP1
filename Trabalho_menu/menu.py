@@ -42,7 +42,7 @@ def menu():
             opcao = int(input("Opção: "))  # Solicita a opção do usuário
             funcao = opcoes_menu.get(opcao)  # Obtém a função correspondente
             if funcao:
-                funcao()  # Executa a funçãoo
+                funcao()  # Executa a função
             else:
                 console.print("[red]Opção inválida![/red]")  # Mensagem de erro para opção inválida
         except ValueError:
