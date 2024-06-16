@@ -51,7 +51,7 @@ class Cliente(Pessoas):
 
     @classmethod
     def ler_arq_cli(cls):
-        # Abre o arquivo 'Clientes.txt' em modo de leitura
+        # Abre o arquivo 'Clientes.txt' em modo de leituraa
         f = open('Clientes.txt', 'r')
         print('|~~~~~~~| Leitura de cliente |~~~~~~~|')
         l = f.read()  # Lê o conteúdo do arquivo
