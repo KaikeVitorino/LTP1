@@ -1,0 +1,8 @@
+ Nome: Lapras
+ CPF: 9495812357175171537135712357
+ Idade: 85
+ sexo:macho
+numero: 174857459
+Data de contratação: 6/09/1969
+Especialidade tecnica: comer
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|

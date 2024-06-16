@@ -1,0 +1,21 @@
+ Nome: 1312312312
+ CPF: kaike
+ Idade: femea
+ sexo:19
+ Tipo de cliente: 312312314
+ numero: legal
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+ Nome: kaike
+ CPF: 123
+ Idade: 19
+ sexo:femea
+ Tipo de cliente: legal
+ numero: 321
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+ Nome: lucas
+ CPF: 7889
+ Idade: 5
+ sexo:macho
+ Tipo de cliente: criança
+ numero: 412414141
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|

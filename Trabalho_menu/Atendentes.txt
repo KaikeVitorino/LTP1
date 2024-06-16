@@ -1,0 +1,7 @@
+ Nome: pedro felipe
+ CPF: 999
+ Idade: 19
+ sexo:macho
+ numero: 99090900
+ Data de contrata��o: 20/06/2020
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
